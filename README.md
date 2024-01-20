@@ -1,6 +1,6 @@
 # extract_information.py
 Create a csv/excel file which include the information needed for the uploading of each scan   
-Only **scan path and scan label** are needed beforehand, because these can be dataset specific, other information can all be extract based on **scan path**. 
+Only **ScanPath, ScanLabel and ScanFormat** are needed beforehand, because these can be dataset specific, other information can all be extract based on **ScanPath**. 
 
 # overview of scans.xlsx
 csv/excel file created by _extract_information.py_
@@ -10,7 +10,7 @@ information needed for the uploading of each scan, it can the extracted automati
 - project: string of XNAT project ID
 - subject: string of XNAT subject ID (called PTID in the csv file)
 - scan_type: string indicating scan type (e.g. T1 or FLAIR)
-- scan_path path to scan on local computer
+- scan_path: path to scan on local computer
 - scan_label: string of label, e.g. 001_S_0001_bl, can also be called experiment label, the scans in the same experiment have the same label
 - scan_id: string of scan id that is provided during XNAT upload
 - scan_date: The time the scan was created
@@ -25,5 +25,5 @@ information needed in the bash file
 - password
 - project: project name
 
-### vCorrespondence between the information in the csv file and interface of Xnat webpage after uploading
+### Correspondence between the information in the csv file and interface of Xnat webpage after uploading
 ![avatar](https://github.com/JWKKWJ123/exercise/blob/main/Capture.PNG))
