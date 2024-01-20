@@ -1,5 +1,5 @@
 ## extract_information.py
-Create a csv/excel file which include the information needed for the uploading of each scan. In principle, any folder structure and file naming method is acceptable. If the folder structure of raw dataset is irregular, [DeepDicomSort](https://gitlab.com/radiology/neuro/DeepDicomSort_BrainMri_soenke) can be used to creat the path of each scan.
+Create a csv/excel file which include the information needed for the uploading of each scan. In principle, any folder structure and file naming method is acceptable. If the folder structure of raw dataset is irregular, [DeepDicomSort](https://gitlab.com/radiology/neuro/DeepDicomSort_BrainMri_soenke) can be used to creat the path of each scan.   
 Only **ScanPath, ScanLabel and ScanFormat** are needed beforehand, because these can be dataset specific, other information can all be extract based on **ScanPath**.   
 Now the **ScanFormat** is split into: 'DICOM', 'nii', 'PAR' and 'REC'.   
 
