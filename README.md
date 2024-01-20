@@ -23,10 +23,12 @@ Only **scan path and scan label** are needed beforehand, because these can be da
 
 
 # run.sh
-bash file used to submit job to the GPU-cluster
---host 'https://bigr-rad-xnat.erasmusmc.nl/' 
---user 'wkang'  --password 'Mua4LK6dSW' 
---project 'FTD-RisC'
+bash file used to submit job to the GPU-cluster.   
+information needed in the bash file 
+- host: Xnat host (e.g. BIGR Xnat 'https://bigr-rad-xnat.erasmusmc.nl/') 
+- user: user name
+--password
+- project: project name
 
 
 
