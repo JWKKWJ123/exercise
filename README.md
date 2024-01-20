@@ -1,12 +1,12 @@
-# extract_information.py
+## extract_information.py
 Create a csv/excel file which include the information needed for the uploading of each scan   
 Only **ScanPath, ScanLabel and ScanFormat** are needed beforehand, because these can be dataset specific, other information can all be extract based on **ScanPath**.   
 Now the ScanFormat is split into: 'DICOM', 'nii', 'PAR' and 'REC'.   
 
-# overview of scans.xlsx
+## overview of scans.xlsx
 csv/excel file created by _extract_information.py_
 
-# Xnat_upload_general.py
+## Xnat_upload_general.py
 information needed for the uploading of each scan, it can the extracted automaticall from the csv/excel and bash file:   
 - project: string of XNAT project ID
 - subject: string of XNAT subject ID (called PTID in the csv file)
@@ -18,7 +18,7 @@ information needed for the uploading of each scan, it can the extracted automati
 - scan_discription: string of discription of the scan, exract from DICOM head file
 - scan_notes: string of notes relate to the scan, it can be anything
 
-# run.sh
+## run.sh
 bash file used to submit job to the GPU-cluster.   
 information needed in the bash file 
 - host: Xnat host (e.g. BIGR Xnat 'https://bigr-rad-xnat.erasmusmc.nl/') 
