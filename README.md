@@ -7,7 +7,7 @@ Now the ScanFormat is split into: 'DICOM', 'nii', 'PAR' and 'REC'.
 csv/excel file created by _extract_information.py_
 
 ## Xnat_upload_general.py
-information needed for the uploading of each scan, it can the extracted automaticall from the csv/excel and bash file:   
+information needed for the uploading of each scan, it can the extracted automatically from the csv/excel and bash file:   
 - project: string of XNAT project ID
 - subject: string of XNAT subject ID (called PTID in the csv file)
 - scan_type: string indicating scan type (e.g. T1 or FLAIR)
@@ -15,7 +15,7 @@ information needed for the uploading of each scan, it can the extracted automati
 - scan_label: string of label, e.g. 001_S_0001_bl, can also be called experiment label, the scans in the same experiment have the same label
 - scan_id: string of scan id that is provided during XNAT upload
 - scan_date: The time the scan was created
-- scan_discription: string of discription of the scan, exract from DICOM head file
+- scan_description: string of description of the scan, exract from DICOM head file
 - scan_notes: string of notes relate to the scan, it can be anything
 
 ## run.sh
