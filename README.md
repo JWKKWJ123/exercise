@@ -27,7 +27,7 @@ bash file used to submit job to the GPU-cluster.
 information needed in the bash file 
 - host: Xnat host (e.g. BIGR Xnat 'https://bigr-rad-xnat.erasmusmc.nl/') 
 - user: user name
---password
+-password
 - project: project name
 
 
