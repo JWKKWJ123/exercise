@@ -24,6 +24,13 @@ Only **scan path and scan label** are needed beforehand, because these can be da
 
 # run.sh
 bash file used to submit job to the GPU-cluster
+--host 'https://bigr-rad-xnat.erasmusmc.nl/' 
+--user 'wkang'  --password 'Mua4LK6dSW' 
+--project 'FTD-RisC'
+
+
+
+
 
 
 ### vCorrespondence between the information in the csv file and interface of Xnat webpage after uploading
