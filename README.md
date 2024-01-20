@@ -2,8 +2,10 @@
 Create a csv/excel file which include the information needed for the uploading of each scan   
 Only **scan path and scan label** are needed beforehand, because these can be dataset specific, other information can all be extract based on **scan path**. 
 
+# Hello World
 
 
+# Xnat_upload_general.py
 
 - project: string of XNAT project ID
 - subject: string of XNAT subject ID (called PTID in the csv file)
@@ -17,9 +19,12 @@ Only **scan path and scan label** are needed beforehand, because these can be da
 
 
 # Hello World
-# qqq
 
 
 
+# run.sh
+bash file used to submit job to the GPU-cluster
 
+
+### vCorrespondence between the information in the csv file and interface of Xnat webpage after uploading
 ![avatar](https://github.com/JWKKWJ123/exercise/blob/main/Capture.PNG))
