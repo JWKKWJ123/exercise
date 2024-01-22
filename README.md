@@ -27,4 +27,4 @@ information needed in the bash file
 - project: project name
 
 ### Correspondence between the information in the csv file and interface of Xnat webpage after uploading
-![avatar](https://github.com/JWKKWJ123/exercise/blob/main/Capture.PNG))
+![avatar](https://github.com/JWKKWJ123/exercise/blob/main/Capture.PNG)
